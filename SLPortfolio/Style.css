@@ -1,4 +1,6 @@
-﻿/*.container {
+﻿
+
+/*.container {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows:50px 100px 50px 100px 100px;
@@ -223,4 +225,8 @@ img.card-img-top-img-fluid {
 h3#projects {
     font-family: cursive;
     text-align: center;
+}
+
+p#project1{
+    text-align:left;
 }

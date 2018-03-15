@@ -217,10 +217,11 @@ h3#skills {
     width:286px;
 }*/
 
-img.card-img-top-img-fluid {
-    height: 325px;
-    width: 368px;
+img.img-thumbnail{
+    margin-top:10px;
+    margin-bottom:10px;
 }
+
 
 h3#projects {
     font-family: cursive;

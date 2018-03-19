@@ -16,11 +16,11 @@
 /*div.container {
     background-color:white;
 }*/
-.col-7.locationscolodd {
+/*.col-7.locationscolodd {
     text-align: center;
     font-family: cursive;
     color: #415466;
-}
+}*/
 
 /*.col-5.locationscolodd {
     background-image: url('images/Susan London Headshot rev.jpg');
@@ -35,25 +35,29 @@ img {
     border-radius: 50%;
     display: flex;
     align-content: flex-start;
+    height:350px;
+    width:300px;
 }
-/*h3.me {
+/*
+h3.me {
     display: flex;
     grid-column: 3/span 2;
     grid-row: 1;
     font-family: cursive;
-    color: #415466
+    color: #030c36
 }
 
+/*
 p.me{
     display:flex;
     grid-row:1;
     grid-column:2/span 7;
     font-family:cursive;
      text-align:center;
-     color: #415466
+     color: #030c36
 
     
-}
+}*/
 /*styling for the nav bar*/
 
 ul {
@@ -70,7 +74,7 @@ a {
     justify-content: center;
     font-family: cursive;
     font-size: large;
-    color: darkblue;
+    color: #030c36;
 }
 
 /*styling for nav bar*/
@@ -91,6 +95,7 @@ section.grid-item-2 {
 body {
     margin: 0px;
     font-family: 'segoe ui';
+
 }
 
 .nav {
@@ -190,7 +195,7 @@ body {
     }
 }
 
-section.grid-item-6 {
+/*section.grid-item-6 {
     display: flex;
     grid-column: 5;
     grid-row: 5;
@@ -204,7 +209,7 @@ section.grid-item-1 {
     display: flex;
     grid-row: 5;
     background-color: #a4d4ff;
-}
+}*/
 
 h3#skills {
     font-family: cursive;
@@ -216,6 +221,10 @@ h3#skills {
     height:130px;
     width:286px;
 }*/
+div.container {
+    color: #286262;
+}
+
 
 img.img-thumbnail{
     margin-top:10px;
@@ -223,11 +232,33 @@ img.img-thumbnail{
 }
 
 
-h3#projects {
+h2#projects {
     font-family: cursive;
     text-align: center;
+    
 }
 
-p#project1{
+p#project1 {
+    text-align: left;
+    font-family: cursive;
+    font-size: large;
+    background-color: #dbedf4 !important;
+    height:320px;
+    width:570px;
+}
+p{
+    font-size:large;
     text-align:left;
+}
+
+h2 {
+    text-align: center;
+    color: #286262;
+}
+
+h3.contact {
+    color: #286262;
+    background-color: #dbedf4 !important;
+    width: 350px;
+    height: 135px;
 }
